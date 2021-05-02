@@ -1,2 +1,14 @@
 .ipynb_*
 *~
+paper.aux
+paper.bbl
+paper.bcf
+paper.blg
+paper.dvi
+paper.fdb_latexmk
+paper.fls
+paper.log
+paper.out
+paper.pdf
+paper.run.xml
+
