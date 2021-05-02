@@ -3,7 +3,7 @@
 \usepackage{url}        % Written by Donald Arseneau
 \usepackage{amsmath}    % From the American Mathematical Society
 \usepackage{hyperref}
-\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \addbibresource{refs.bib}
 % Your document starts here!
 \begin{document}
@@ -35,7 +35,7 @@
 \section{Experimental apparatus and set up, Data Acquisition, and Data}
 	This is where you describe the experiment. What are the uncertainties in the raw data? What does the reader need to know to evaluate the quality and validity of your results? 
 	You should give data in tabular form, if it's pretty limited, or 
-    provide an online reference for your data (e.g., think google sheet, or plotly).
+    provide an online reference for your data (e.g., think google sheets, or plotly).
     This is {\it not} a procedure from a lab report, but an explanation that a
     competent researcher could use to reproduce your results. Only non-obvious details
     need to be included, especially things that may have required some trial and error to 
@@ -55,9 +55,7 @@
 
 	% You can cite a book or paper by using \cite{reference}.
 	% The references will be defined at the end of this .tex file in the bibliography
-	References should be cited as numbers, and should be ordered by their appearance (example: ``... as shown by Einstein in 1905 \parencite{einstein}, ...'').
-	Only references that are actually cited can be listed in the references section.
-	The references' format should be evident from the examples in this text.
+	References should be saved in the {\tt refs.bib} file and should be cited by name (example: ``... as shown by Einstein, 1905 \parencite{einstein}, ...''). The BibLaTeX system will automatically create the references list based on which references are cited in the text \parencite{dirac}.
 
 	References should be of academic character and should be published and accessible.
 	Your advisor can answer your questions regarding literature research.
